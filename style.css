@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+header,
+main {
+  flex: 1;
+}
+
+header {
+  padding: 10px 70px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+}
+
+.hero-info {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+header aside {
+  height: 150px;
+}
+
+.hero-info img {
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+header a,
+header p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+header button {
+  background: #3882f6;
+  color: aliceblue;
+  border: none;
+  margin: 5px;
+}
