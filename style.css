@@ -68,7 +68,7 @@ header p {
 }
 
 button {
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 5px;
 }
 
@@ -125,4 +125,36 @@ cite {
   font-style: normal;
   font-size: small;
   font-weight: 600;
+}
+
+/* .banner section */
+.banner {
+  background: #3882f6;
+  padding: 25px 50px;
+  margin: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.banner h3 {
+  color: #f9faf8;
+}
+
+.banner p {
+  color: #e5e7eb;
+}
+
+.banner button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #f9faf8;
+  color: #f9faf8;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #e5e7eb;
 }
