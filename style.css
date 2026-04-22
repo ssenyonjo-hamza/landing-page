@@ -78,3 +78,29 @@ header button {
   border: none;
   margin: 5px;
 }
+
+/* main */
+section h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.four-imgs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.four-imgs figure {
+  width: 100px;
+}
+
+.four-imgs figcaption {
+  text-align: center;
+}
+
+.four-imgs img {
+  border: 2px solid #3882f6;
+  border-radius: 12%;
+  flex-shrink: 0;
+}
