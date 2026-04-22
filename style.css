@@ -97,10 +97,11 @@ section h2 {
 
 .four-imgs figcaption {
   text-align: center;
+  font-size: smaller;
+  font-style: italic;
 }
 
 .four-imgs img {
   border: 2px solid #3882f6;
   border-radius: 12%;
-  flex-shrink: 0;
 }
