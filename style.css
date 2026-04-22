@@ -105,3 +105,24 @@ section h2 {
   border: 2px solid #3882f6;
   border-radius: 12%;
 }
+
+/* the .quote section */
+.quote {
+  background: #e5e7eb;
+  color: #1f2937;
+  font-size: 35px;
+  font-weight: 280;
+  margin: 30px 0;
+  padding: 30px 50px;
+  font-style: italic;
+}
+
+.quote figcaption {
+  text-align: right;
+}
+
+cite {
+  font-style: normal;
+  font-size: small;
+  font-weight: 600;
+}
